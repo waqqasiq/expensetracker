@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "431594456174",
+    "firebase_url": "https://expensetrackauth.firebaseio.com",
+    "project_id": "expensetrackauth",
+    "storage_bucket": "expensetrackauth.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:431594456174:android:702ad2320fcd6477",
+        "android_client_info": {
+          "package_name": "com.example.expensetrackauth"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "431594456174-2dvlic1ns74jrh7o4erumkvliq1si3l5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.expensetrackauth",
+            "certificate_hash": "a8d6b1b12da8806124450496df2d61fa568f5c4a"
+          }
+        },
+        {
+          "client_id": "431594456174-r2j5uvagdcoqb9bs6rc26s0mcj6rlo84.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDzSubO3xyeDqUJeRFj3NFsSq3LwtLcVsY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "431594456174-r2j5uvagdcoqb9bs6rc26s0mcj6rlo84.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
