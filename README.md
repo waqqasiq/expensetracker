@@ -7,7 +7,7 @@ An android app that helps you track down your daily expenses. Watch this [demo](
 * Adding and tracking expenses incurred in a day
 * Updating previous expense 
 * Deleting expenses on touch and hold on the item
-* Check monthly summary along with the average expenditure per day in that month
+* Check monthly summary along with the average expenditure per day in each month
 * Search expenses by date or by title
 
 ### Software
@@ -15,3 +15,5 @@ An android app that helps you track down your daily expenses. Watch this [demo](
 
 ### Language
 * Java
+
+### Note: No permission is requested by the app. You only need to have internet to connect to the firebase database
