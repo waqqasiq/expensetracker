@@ -16,5 +16,5 @@ An android app that helps you track down your daily expenses. Watch this [demo](
 ### Language
 * Java
 
-### Note: 
-No permission is requested by the app. You only need to have internet to connect to the firebase database
+### Note
+* No permission is requested by the app. You only need to have internet to connect to the firebase database
