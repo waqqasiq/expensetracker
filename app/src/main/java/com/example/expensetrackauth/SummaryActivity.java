@@ -148,9 +148,44 @@ public class SummaryActivity extends AppCompatActivity {
                         averageperday.add((yearmonthtotalunique.get(k)*1.0)/numOfDaysUnique.get(k));
                     }
                     ///////
+                    ArrayList<String> tempList = new ArrayList<String>();
+                    for(int k = 0;k<yearmonthlistunique.size(); k++){
+                        String dt = yearmonthlistunique.get(k);
+                        String monthNum = ""+dt.charAt(5)+dt.charAt(6);
+                        String year = ""+dt.charAt(0)+dt.charAt(1)+dt.charAt(2)+dt.charAt(3);
+                        if(monthNum.equals("01")){
+                            tempList.add("January "+year);
+                        }else if(monthNum.equals("02")){
+                            tempList.add("February "+year);
+                        }else if(monthNum.equals("03")){
+                            tempList.add("March "+year);
+                        }else if(monthNum.equals("04")){
+                            tempList.add("April "+year);
+                        }else if(monthNum.equals("05")){
+                            tempList.add("May "+year);
+                        }else if(monthNum.equals("06")){
+                            tempList.add("June "+year);
+                        }else if(monthNum.equals("07")){
+                            tempList.add("July "+year);
+                        }
+                        else if(monthNum.equals("08")){
+                            tempList.add("August "+year);
+                        }
+                        else if (monthNum.equals("09")){
+                            tempList.add("September "+year);
+                        }
+                        else if(monthNum.equals("10")){
+                            tempList.add("October "+year);
+                        }else if(monthNum.equals("11")){
+                            tempList.add("November "+year);
+                        }else if(monthNum.equals("12")){
+                            tempList.add("December "+year);
+                        }
+
+                    }
 
 
-                    adapter = new SummaryAdapter(SummaryActivity.this, filteredList, yearmonthlistunique, yearmonthtotalunique, numOfDaysUnique, averageperday);//may use expenseList instead
+                    adapter = new SummaryAdapter(SummaryActivity.this, filteredList, tempList, yearmonthtotalunique, numOfDaysUnique, averageperday);//may use expenseList instead
                     recyclerView.setAdapter(adapter);//
                 }
 

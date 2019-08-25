@@ -1,0 +1,505 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/waqqasiqbal/Downloads/ExpenseTrackAuth/app/src/main/AndroidManifest.xml:2:1-32:12
+INJECTED from /Users/waqqasiqbal/Downloads/ExpenseTrackAuth/app/src/main/AndroidManifest.xml:2:1-32:12
+INJECTED from /Users/waqqasiqbal/Downloads/ExpenseTrackAuth/app/src/main/AndroidManifest.xml:2:1-32:12
+INJECTED from /Users/waqqasiqbal/Downloads/ExpenseTrackAuth/app/src/main/AndroidManifest.xml:2:1-32:12
+MERGED from [com.google.android.material:material:1.0.0] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/61e81b0a686b310fcf09a7331c404889/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat:1.0.2] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/c172a03eddb132928e896b943dd3d776/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/74f44120ae1c8a15fb50525bb5e9bfea/AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.firebase:firebase-auth:16.0.5] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/f3ebe40cf135da0477954d7598daf7d7/AndroidManifest.xml:17:1-42:12
+MERGED from [com.google.android.gms:play-services-auth:17.0.0] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/605bc2462ca8799f179b75f93e2cf214/AndroidManifest.xml:17:1-39:12
+MERGED from [com.google.firebase:firebase-core:16.0.6] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/3754743629a73d29011e75348470eb30/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-database:16.0.4] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/a15e144f5a1e37d2ddcde897e2fb5d54/AndroidManifest.xml:15:1-25:12
+MERGED from [com.google.android.gms:play-services-flags:16.0.1] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/9a31dbc4c74cdfec88d1d01fa5bfeab4/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-auth-interop:16.0.1] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/de605d7bccfa9513d092b0327362e2e6/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-auth-api-phone:17.0.0] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/e623811468ca6cf94562ae0aed6c3b45/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-auth-base:17.0.0] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/cdf91d463b49eeffcd6501f9a4bac6fa/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.4] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/7a0131b7603e930d8b2fa0e1e46f41ed/AndroidManifest.xml:17:1-34:12
+MERGED from [com.google.firebase:firebase-analytics:16.0.6] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/6c439cf6923987c51458bbcfb2a84169/AndroidManifest.xml:17:1-55:12
+MERGED from [com.google.android.gms:play-services-measurement-api:16.0.4] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/020b861379922fa12a6686f68069aca3/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.4] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/bb710f57ed972d51c13b76e75a841d52/AndroidManifest.xml:17:1-40:12
+MERGED from [com.google.firebase:firebase-iid:17.0.3] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/e957aafe070fbaab5746ce0d6548216f/AndroidManifest.xml:17:1-59:12
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/c115e8486e0e46d8a72c7912a32fb674/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/cb99a25ec532e510c305a5c311ad2ad0/AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.firebase:firebase-common:16.0.3] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/591ec38af594a5e64d1e533b0ef3c09e/AndroidManifest.xml:2:1-17:12
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/9cf26b754d5072f2d14f6544420f401d/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-database-collection:16.0.0] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/5be1ad66be5d2df4decba02adc916126/AndroidManifest.xml:2:1-8:12
+MERGED from [com.google.android.gms:play-services-measurement-base:16.0.5] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/467206d3c4fc55756cc90255c076e3e8/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/8cd3bedb9a2fba635041995466bc8298/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/5de8b419b91b2a978396a05da22c1bf5/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/8040b18094d4a0de75a50e4738173aa9/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/2709dfd34fb2bf730b6aba861071c08f/AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.fragment:fragment:1.0.0] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/cecced5468599b1cf8e240c9230a623a/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/2a3adfdf1c6fbc1a2f0b3a4dc9a9f74c/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/cc2b9e6d636c3f21975f3fa90bf835af/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/bffb30fe1995bc51b1f62ca074440a26/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/e301153040c67c008134ac1e754348f0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/76e18ed507359d5e8b79c2a5f57e9916/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.0.0] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/64a27ad7ca2d5464e0aafbbb8f1985cf/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/232ca1e0348ea7d6e067051ce2611da3/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/ac0d9b2cb91723f68fa0e9b4bd7d2f65/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/f66b7a3651381ebbf4876978203fcc05/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/909fc6ac1bb3b0519ec8ed92da13ca74/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/ed0743b65cf3b750182840c59cb746e8/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/16d0ec97bdc645e3565b2d2aa684ce65/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/19d1889a79a6237c97b31e280d836a20/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/97cf8b7d8091fb408f97d29dde4f28a9/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.0.1] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/1dacf74f33e229a97b91dd460100fcdf/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/dc070afa00e44ab29c74ee3b31c6ec10/AndroidManifest.xml:17:1-25:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/26212b2512cdee3ceb8337e8a0a70396/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/e0f5adebf64b21db976165fd3fa62b4d/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/9e6f6b76005e16b459fabc18997c92b3/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/d915b8917393c8d770d32844bb0406f5/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/7937cd3d09f559a35709ea039d05e843/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/8a32b968f87e22ef63a45ee1218ef689/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/d858f78c587f3f22198cdbad24fd6607/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/12400e9f3de959c5e231ce92c32ae4b0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/881da3d1b6f9d7da08bfaead7cd3259b/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/08fd3ffdeeaea5bb54098209b71aa5d3/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/c46887e040fca15dfe11d4b11f25c9f9/AndroidManifest.xml:17:1-22:12
+INJECTED from /Users/waqqasiqbal/Downloads/ExpenseTrackAuth/app/src/main/AndroidManifest.xml:2:1-32:12
+INJECTED from /Users/waqqasiqbal/Downloads/ExpenseTrackAuth/app/src/main/AndroidManifest.xml:2:1-32:12
+INJECTED from /Users/waqqasiqbal/Downloads/ExpenseTrackAuth/app/src/main/AndroidManifest.xml:2:1-32:12
+	package
+		ADDED from /Users/waqqasiqbal/Downloads/ExpenseTrackAuth/app/src/main/AndroidManifest.xml:3:5-43
+		INJECTED from /Users/waqqasiqbal/Downloads/ExpenseTrackAuth/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/waqqasiqbal/Downloads/ExpenseTrackAuth/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/waqqasiqbal/Downloads/ExpenseTrackAuth/app/src/main/AndroidManifest.xml
+		ADDED from /Users/waqqasiqbal/Downloads/ExpenseTrackAuth/app/src/main/AndroidManifest.xml:2:1-32:12
+		INJECTED from /Users/waqqasiqbal/Downloads/ExpenseTrackAuth/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/waqqasiqbal/Downloads/ExpenseTrackAuth/app/src/main/AndroidManifest.xml
+		ADDED from /Users/waqqasiqbal/Downloads/ExpenseTrackAuth/app/src/main/AndroidManifest.xml:2:1-32:12
+		INJECTED from /Users/waqqasiqbal/Downloads/ExpenseTrackAuth/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/waqqasiqbal/Downloads/ExpenseTrackAuth/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /Users/waqqasiqbal/Downloads/ExpenseTrackAuth/app/src/main/AndroidManifest.xml:5:5-67
+MERGED from [com.google.firebase:firebase-database:16.0.4] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/a15e144f5a1e37d2ddcde897e2fb5d54/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-database:16.0.4] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/a15e144f5a1e37d2ddcde897e2fb5d54/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.4] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/7a0131b7603e930d8b2fa0e1e46f41ed/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.4] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/7a0131b7603e930d8b2fa0e1e46f41ed/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-analytics:16.0.6] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/6c439cf6923987c51458bbcfb2a84169/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-analytics:16.0.6] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/6c439cf6923987c51458bbcfb2a84169/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.4] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/bb710f57ed972d51c13b76e75a841d52/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.4] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/bb710f57ed972d51c13b76e75a841d52/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:17.0.3] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/e957aafe070fbaab5746ce0d6548216f/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:17.0.3] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/e957aafe070fbaab5746ce0d6548216f/AndroidManifest.xml:23:5-67
+	android:name
+		ADDED from /Users/waqqasiqbal/Downloads/ExpenseTrackAuth/app/src/main/AndroidManifest.xml:5:22-64
+application
+ADDED from /Users/waqqasiqbal/Downloads/ExpenseTrackAuth/app/src/main/AndroidManifest.xml:7:5-30:19
+MERGED from [com.google.android.material:material:1.0.0] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/61e81b0a686b310fcf09a7331c404889/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.0.0] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/61e81b0a686b310fcf09a7331c404889/AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/74f44120ae1c8a15fb50525bb5e9bfea/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/74f44120ae1c8a15fb50525bb5e9bfea/AndroidManifest.xml:9:5-20
+MERGED from [com.google.firebase:firebase-auth:16.0.5] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/f3ebe40cf135da0477954d7598daf7d7/AndroidManifest.xml:23:5-40:19
+MERGED from [com.google.firebase:firebase-auth:16.0.5] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/f3ebe40cf135da0477954d7598daf7d7/AndroidManifest.xml:23:5-40:19
+MERGED from [com.google.android.gms:play-services-auth:17.0.0] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/605bc2462ca8799f179b75f93e2cf214/AndroidManifest.xml:22:5-37:19
+MERGED from [com.google.android.gms:play-services-auth:17.0.0] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/605bc2462ca8799f179b75f93e2cf214/AndroidManifest.xml:22:5-37:19
+MERGED from [com.google.firebase:firebase-core:16.0.6] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/3754743629a73d29011e75348470eb30/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-core:16.0.6] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/3754743629a73d29011e75348470eb30/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-auth-interop:16.0.1] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/de605d7bccfa9513d092b0327362e2e6/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-auth-interop:16.0.1] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/de605d7bccfa9513d092b0327362e2e6/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.4] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/7a0131b7603e930d8b2fa0e1e46f41ed/AndroidManifest.xml:26:5-32:19
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.4] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/7a0131b7603e930d8b2fa0e1e46f41ed/AndroidManifest.xml:26:5-32:19
+MERGED from [com.google.firebase:firebase-analytics:16.0.6] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/6c439cf6923987c51458bbcfb2a84169/AndroidManifest.xml:28:5-53:19
+MERGED from [com.google.firebase:firebase-analytics:16.0.6] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/6c439cf6923987c51458bbcfb2a84169/AndroidManifest.xml:28:5-53:19
+MERGED from [com.google.android.gms:play-services-measurement-api:16.0.4] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/020b861379922fa12a6686f68069aca3/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-api:16.0.4] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/020b861379922fa12a6686f68069aca3/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.4] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/bb710f57ed972d51c13b76e75a841d52/AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.4] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/bb710f57ed972d51c13b76e75a841d52/AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.firebase:firebase-iid:17.0.3] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/e957aafe070fbaab5746ce0d6548216f/AndroidManifest.xml:28:5-57:19
+MERGED from [com.google.firebase:firebase-iid:17.0.3] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/e957aafe070fbaab5746ce0d6548216f/AndroidManifest.xml:28:5-57:19
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/c115e8486e0e46d8a72c7912a32fb674/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/c115e8486e0e46d8a72c7912a32fb674/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/cb99a25ec532e510c305a5c311ad2ad0/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/cb99a25ec532e510c305a5c311ad2ad0/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.firebase:firebase-common:16.0.3] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/591ec38af594a5e64d1e533b0ef3c09e/AndroidManifest.xml:9:5-15:19
+MERGED from [com.google.firebase:firebase-common:16.0.3] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/591ec38af594a5e64d1e533b0ef3c09e/AndroidManifest.xml:9:5-15:19
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/9cf26b754d5072f2d14f6544420f401d/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/9cf26b754d5072f2d14f6544420f401d/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:16.0.5] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/467206d3c4fc55756cc90255c076e3e8/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:16.0.5] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/467206d3c4fc55756cc90255c076e3e8/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/8cd3bedb9a2fba635041995466bc8298/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/8cd3bedb9a2fba635041995466bc8298/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/5de8b419b91b2a978396a05da22c1bf5/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/5de8b419b91b2a978396a05da22c1bf5/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/8040b18094d4a0de75a50e4738173aa9/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/8040b18094d4a0de75a50e4738173aa9/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/2709dfd34fb2bf730b6aba861071c08f/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/2709dfd34fb2bf730b6aba861071c08f/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.core:core:1.0.1] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/1dacf74f33e229a97b91dd460100fcdf/AndroidManifest.xml:22:5-89
+MERGED from [androidx.core:core:1.0.1] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/1dacf74f33e229a97b91dd460100fcdf/AndroidManifest.xml:22:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/dc070afa00e44ab29c74ee3b31c6ec10/AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/dc070afa00e44ab29c74ee3b31c6ec10/AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.0.1] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/1dacf74f33e229a97b91dd460100fcdf/AndroidManifest.xml:22:18-86
+	android:supportsRtl
+		ADDED from /Users/waqqasiqbal/Downloads/ExpenseTrackAuth/app/src/main/AndroidManifest.xml:12:9-35
+	android:label
+		ADDED from /Users/waqqasiqbal/Downloads/ExpenseTrackAuth/app/src/main/AndroidManifest.xml:10:9-41
+	android:roundIcon
+		ADDED from /Users/waqqasiqbal/Downloads/ExpenseTrackAuth/app/src/main/AndroidManifest.xml:11:9-57
+	android:icon
+		ADDED from /Users/waqqasiqbal/Downloads/ExpenseTrackAuth/app/src/main/AndroidManifest.xml:9:9-52
+	android:allowBackup
+		ADDED from /Users/waqqasiqbal/Downloads/ExpenseTrackAuth/app/src/main/AndroidManifest.xml:8:9-35
+	android:theme
+		ADDED from /Users/waqqasiqbal/Downloads/ExpenseTrackAuth/app/src/main/AndroidManifest.xml:13:9-40
+activity#com.example.expensetrackauth.UpdateExpActivity
+ADDED from /Users/waqqasiqbal/Downloads/ExpenseTrackAuth/app/src/main/AndroidManifest.xml:14:9-64
+	android:name
+		ADDED from /Users/waqqasiqbal/Downloads/ExpenseTrackAuth/app/src/main/AndroidManifest.xml:14:19-52
+activity#com.example.expensetrackauth.SigninEmail
+ADDED from /Users/waqqasiqbal/Downloads/ExpenseTrackAuth/app/src/main/AndroidManifest.xml:15:9-49
+	android:name
+		ADDED from /Users/waqqasiqbal/Downloads/ExpenseTrackAuth/app/src/main/AndroidManifest.xml:15:19-46
+activity#com.example.expensetrackauth.SummaryActivity
+ADDED from /Users/waqqasiqbal/Downloads/ExpenseTrackAuth/app/src/main/AndroidManifest.xml:16:9-53
+	android:name
+		ADDED from /Users/waqqasiqbal/Downloads/ExpenseTrackAuth/app/src/main/AndroidManifest.xml:16:19-50
+activity#com.example.expensetrackauth.AddExpenses
+ADDED from /Users/waqqasiqbal/Downloads/ExpenseTrackAuth/app/src/main/AndroidManifest.xml:17:9-49
+	android:name
+		ADDED from /Users/waqqasiqbal/Downloads/ExpenseTrackAuth/app/src/main/AndroidManifest.xml:17:19-46
+activity#com.example.expensetrackauth.SignupActivity
+ADDED from /Users/waqqasiqbal/Downloads/ExpenseTrackAuth/app/src/main/AndroidManifest.xml:18:9-52
+	android:name
+		ADDED from /Users/waqqasiqbal/Downloads/ExpenseTrackAuth/app/src/main/AndroidManifest.xml:18:19-49
+activity#com.example.expensetrackauth.SigninActivity
+ADDED from /Users/waqqasiqbal/Downloads/ExpenseTrackAuth/app/src/main/AndroidManifest.xml:19:9-52
+	android:name
+		ADDED from /Users/waqqasiqbal/Downloads/ExpenseTrackAuth/app/src/main/AndroidManifest.xml:19:19-49
+activity#com.example.expensetrackauth.MainActivity
+ADDED from /Users/waqqasiqbal/Downloads/ExpenseTrackAuth/app/src/main/AndroidManifest.xml:20:9-29:20
+	android:label
+		ADDED from /Users/waqqasiqbal/Downloads/ExpenseTrackAuth/app/src/main/AndroidManifest.xml:22:13-45
+	android:theme
+		ADDED from /Users/waqqasiqbal/Downloads/ExpenseTrackAuth/app/src/main/AndroidManifest.xml:23:13-56
+	android:name
+		ADDED from /Users/waqqasiqbal/Downloads/ExpenseTrackAuth/app/src/main/AndroidManifest.xml:21:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/waqqasiqbal/Downloads/ExpenseTrackAuth/app/src/main/AndroidManifest.xml:24:13-28:29
+action#android.intent.action.MAIN
+ADDED from /Users/waqqasiqbal/Downloads/ExpenseTrackAuth/app/src/main/AndroidManifest.xml:25:17-69
+	android:name
+		ADDED from /Users/waqqasiqbal/Downloads/ExpenseTrackAuth/app/src/main/AndroidManifest.xml:25:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/waqqasiqbal/Downloads/ExpenseTrackAuth/app/src/main/AndroidManifest.xml:27:17-77
+	android:name
+		ADDED from /Users/waqqasiqbal/Downloads/ExpenseTrackAuth/app/src/main/AndroidManifest.xml:27:27-74
+uses-sdk
+INJECTED from /Users/waqqasiqbal/Downloads/ExpenseTrackAuth/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/waqqasiqbal/Downloads/ExpenseTrackAuth/app/src/main/AndroidManifest.xml
+INJECTED from /Users/waqqasiqbal/Downloads/ExpenseTrackAuth/app/src/main/AndroidManifest.xml
+MERGED from [com.google.android.material:material:1.0.0] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/61e81b0a686b310fcf09a7331c404889/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.0.0] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/61e81b0a686b310fcf09a7331c404889/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.0.2] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/c172a03eddb132928e896b943dd3d776/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.0.2] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/c172a03eddb132928e896b943dd3d776/AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/74f44120ae1c8a15fb50525bb5e9bfea/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/74f44120ae1c8a15fb50525bb5e9bfea/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-auth:16.0.5] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/f3ebe40cf135da0477954d7598daf7d7/AndroidManifest.xml:21:5-44
+MERGED from [com.google.firebase:firebase-auth:16.0.5] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/f3ebe40cf135da0477954d7598daf7d7/AndroidManifest.xml:21:5-44
+MERGED from [com.google.android.gms:play-services-auth:17.0.0] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/605bc2462ca8799f179b75f93e2cf214/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth:17.0.0] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/605bc2462ca8799f179b75f93e2cf214/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-core:16.0.6] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/3754743629a73d29011e75348470eb30/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-core:16.0.6] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/3754743629a73d29011e75348470eb30/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-database:16.0.4] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/a15e144f5a1e37d2ddcde897e2fb5d54/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-database:16.0.4] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/a15e144f5a1e37d2ddcde897e2fb5d54/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.gms:play-services-flags:16.0.1] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/9a31dbc4c74cdfec88d1d01fa5bfeab4/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-flags:16.0.1] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/9a31dbc4c74cdfec88d1d01fa5bfeab4/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:16.0.1] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/de605d7bccfa9513d092b0327362e2e6/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:16.0.1] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/de605d7bccfa9513d092b0327362e2e6/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:17.0.0] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/e623811468ca6cf94562ae0aed6c3b45/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:17.0.0] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/e623811468ca6cf94562ae0aed6c3b45/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:17.0.0] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/cdf91d463b49eeffcd6501f9a4bac6fa/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:17.0.0] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/cdf91d463b49eeffcd6501f9a4bac6fa/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.4] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/7a0131b7603e930d8b2fa0e1e46f41ed/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.4] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/7a0131b7603e930d8b2fa0e1e46f41ed/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics:16.0.6] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/6c439cf6923987c51458bbcfb2a84169/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics:16.0.6] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/6c439cf6923987c51458bbcfb2a84169/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:16.0.4] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/020b861379922fa12a6686f68069aca3/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:16.0.4] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/020b861379922fa12a6686f68069aca3/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.4] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/bb710f57ed972d51c13b76e75a841d52/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.4] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/bb710f57ed972d51c13b76e75a841d52/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:17.0.3] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/e957aafe070fbaab5746ce0d6548216f/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:17.0.3] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/e957aafe070fbaab5746ce0d6548216f/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/c115e8486e0e46d8a72c7912a32fb674/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/c115e8486e0e46d8a72c7912a32fb674/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/cb99a25ec532e510c305a5c311ad2ad0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/cb99a25ec532e510c305a5c311ad2ad0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-common:16.0.3] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/591ec38af594a5e64d1e533b0ef3c09e/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-common:16.0.3] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/591ec38af594a5e64d1e533b0ef3c09e/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/9cf26b754d5072f2d14f6544420f401d/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/9cf26b754d5072f2d14f6544420f401d/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-database-collection:16.0.0] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/5be1ad66be5d2df4decba02adc916126/AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-database-collection:16.0.0] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/5be1ad66be5d2df4decba02adc916126/AndroidManifest.xml:6:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:16.0.5] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/467206d3c4fc55756cc90255c076e3e8/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:16.0.5] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/467206d3c4fc55756cc90255c076e3e8/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/8cd3bedb9a2fba635041995466bc8298/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/8cd3bedb9a2fba635041995466bc8298/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/5de8b419b91b2a978396a05da22c1bf5/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/5de8b419b91b2a978396a05da22c1bf5/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/8040b18094d4a0de75a50e4738173aa9/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/8040b18094d4a0de75a50e4738173aa9/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/2709dfd34fb2bf730b6aba861071c08f/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/2709dfd34fb2bf730b6aba861071c08f/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.0.0] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/cecced5468599b1cf8e240c9230a623a/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.0.0] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/cecced5468599b1cf8e240c9230a623a/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/2a3adfdf1c6fbc1a2f0b3a4dc9a9f74c/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/2a3adfdf1c6fbc1a2f0b3a4dc9a9f74c/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/cc2b9e6d636c3f21975f3fa90bf835af/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/cc2b9e6d636c3f21975f3fa90bf835af/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/bffb30fe1995bc51b1f62ca074440a26/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/bffb30fe1995bc51b1f62ca074440a26/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/e301153040c67c008134ac1e754348f0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/e301153040c67c008134ac1e754348f0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/76e18ed507359d5e8b79c2a5f57e9916/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/76e18ed507359d5e8b79c2a5f57e9916/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.0] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/64a27ad7ca2d5464e0aafbbb8f1985cf/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.0] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/64a27ad7ca2d5464e0aafbbb8f1985cf/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/232ca1e0348ea7d6e067051ce2611da3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/232ca1e0348ea7d6e067051ce2611da3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/ac0d9b2cb91723f68fa0e9b4bd7d2f65/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/ac0d9b2cb91723f68fa0e9b4bd7d2f65/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/f66b7a3651381ebbf4876978203fcc05/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/f66b7a3651381ebbf4876978203fcc05/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/909fc6ac1bb3b0519ec8ed92da13ca74/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/909fc6ac1bb3b0519ec8ed92da13ca74/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/ed0743b65cf3b750182840c59cb746e8/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/ed0743b65cf3b750182840c59cb746e8/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/16d0ec97bdc645e3565b2d2aa684ce65/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/16d0ec97bdc645e3565b2d2aa684ce65/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/19d1889a79a6237c97b31e280d836a20/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/19d1889a79a6237c97b31e280d836a20/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/97cf8b7d8091fb408f97d29dde4f28a9/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/97cf8b7d8091fb408f97d29dde4f28a9/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.1] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/1dacf74f33e229a97b91dd460100fcdf/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.1] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/1dacf74f33e229a97b91dd460100fcdf/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/dc070afa00e44ab29c74ee3b31c6ec10/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/dc070afa00e44ab29c74ee3b31c6ec10/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/26212b2512cdee3ceb8337e8a0a70396/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/26212b2512cdee3ceb8337e8a0a70396/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/e0f5adebf64b21db976165fd3fa62b4d/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/e0f5adebf64b21db976165fd3fa62b4d/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/9e6f6b76005e16b459fabc18997c92b3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/9e6f6b76005e16b459fabc18997c92b3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/d915b8917393c8d770d32844bb0406f5/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/d915b8917393c8d770d32844bb0406f5/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/7937cd3d09f559a35709ea039d05e843/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/7937cd3d09f559a35709ea039d05e843/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/8a32b968f87e22ef63a45ee1218ef689/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/8a32b968f87e22ef63a45ee1218ef689/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/d858f78c587f3f22198cdbad24fd6607/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/d858f78c587f3f22198cdbad24fd6607/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/12400e9f3de959c5e231ce92c32ae4b0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/12400e9f3de959c5e231ce92c32ae4b0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/881da3d1b6f9d7da08bfaead7cd3259b/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/881da3d1b6f9d7da08bfaead7cd3259b/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/08fd3ffdeeaea5bb54098209b71aa5d3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/08fd3ffdeeaea5bb54098209b71aa5d3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/c46887e040fca15dfe11d4b11f25c9f9/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/c46887e040fca15dfe11d4b11f25c9f9/AndroidManifest.xml:20:5-44
+INJECTED from /Users/waqqasiqbal/Downloads/ExpenseTrackAuth/app/src/main/AndroidManifest.xml
+INJECTED from /Users/waqqasiqbal/Downloads/ExpenseTrackAuth/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/waqqasiqbal/Downloads/ExpenseTrackAuth/app/src/main/AndroidManifest.xml
+		ADDED from /Users/waqqasiqbal/Downloads/ExpenseTrackAuth/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/waqqasiqbal/Downloads/ExpenseTrackAuth/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/waqqasiqbal/Downloads/ExpenseTrackAuth/app/src/main/AndroidManifest.xml
+		ADDED from /Users/waqqasiqbal/Downloads/ExpenseTrackAuth/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/waqqasiqbal/Downloads/ExpenseTrackAuth/app/src/main/AndroidManifest.xml
+activity#com.google.firebase.auth.internal.FederatedSignInActivity
+ADDED from [com.google.firebase:firebase-auth:16.0.5] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/f3ebe40cf135da0477954d7598daf7d7/AndroidManifest.xml:24:9-31:50
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:16.0.5] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/f3ebe40cf135da0477954d7598daf7d7/AndroidManifest.xml:26:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:16.0.5] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/f3ebe40cf135da0477954d7598daf7d7/AndroidManifest.xml:28:13-44
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:16.0.5] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/f3ebe40cf135da0477954d7598daf7d7/AndroidManifest.xml:27:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-auth:16.0.5] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/f3ebe40cf135da0477954d7598daf7d7/AndroidManifest.xml:29:13-102
+	android:theme
+		ADDED from [com.google.firebase:firebase-auth:16.0.5] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/f3ebe40cf135da0477954d7598daf7d7/AndroidManifest.xml:30:13-72
+	tools:replace
+		ADDED from [com.google.firebase:firebase-auth:16.0.5] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/f3ebe40cf135da0477954d7598daf7d7/AndroidManifest.xml:31:13-47
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:16.0.5] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/f3ebe40cf135da0477954d7598daf7d7/AndroidManifest.xml:25:13-85
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.firebase:firebase-auth:16.0.5] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/f3ebe40cf135da0477954d7598daf7d7/AndroidManifest.xml:33:9-39:19
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.4] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/7a0131b7603e930d8b2fa0e1e46f41ed/AndroidManifest.xml:27:9-31:19
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.4] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/7a0131b7603e930d8b2fa0e1e46f41ed/AndroidManifest.xml:27:9-31:19
+MERGED from [com.google.firebase:firebase-iid:17.0.3] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/e957aafe070fbaab5746ce0d6548216f/AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-iid:17.0.3] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/e957aafe070fbaab5746ce0d6548216f/AndroidManifest.xml:29:9-35:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:16.0.5] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/f3ebe40cf135da0477954d7598daf7d7/AndroidManifest.xml:35:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:16.0.5] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/f3ebe40cf135da0477954d7598daf7d7/AndroidManifest.xml:34:13-84
+meta-data#com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar
+ADDED from [com.google.firebase:firebase-auth:16.0.5] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/f3ebe40cf135da0477954d7598daf7d7/AndroidManifest.xml:36:13-38:85
+	android:value
+		ADDED from [com.google.firebase:firebase-auth:16.0.5] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/f3ebe40cf135da0477954d7598daf7d7/AndroidManifest.xml:38:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:16.0.5] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/f3ebe40cf135da0477954d7598daf7d7/AndroidManifest.xml:37:17-109
+activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
+ADDED from [com.google.android.gms:play-services-auth:17.0.0] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/605bc2462ca8799f179b75f93e2cf214/AndroidManifest.xml:23:9-27:75
+	android:excludeFromRecents
+		ADDED from [com.google.android.gms:play-services-auth:17.0.0] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/605bc2462ca8799f179b75f93e2cf214/AndroidManifest.xml:25:13-46
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:17.0.0] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/605bc2462ca8799f179b75f93e2cf214/AndroidManifest.xml:26:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-auth:17.0.0] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/605bc2462ca8799f179b75f93e2cf214/AndroidManifest.xml:27:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:17.0.0] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/605bc2462ca8799f179b75f93e2cf214/AndroidManifest.xml:24:13-93
+service#com.google.android.gms.auth.api.signin.RevocationBoundService
+ADDED from [com.google.android.gms:play-services-auth:17.0.0] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/605bc2462ca8799f179b75f93e2cf214/AndroidManifest.xml:33:9-36:110
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:17.0.0] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/605bc2462ca8799f179b75f93e2cf214/AndroidManifest.xml:35:13-36
+	android:permission
+		ADDED from [com.google.android.gms:play-services-auth:17.0.0] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/605bc2462ca8799f179b75f93e2cf214/AndroidManifest.xml:36:13-107
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:17.0.0] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/605bc2462ca8799f179b75f93e2cf214/AndroidManifest.xml:34:13-89
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.firebase:firebase-database:16.0.4] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/a15e144f5a1e37d2ddcde897e2fb5d54/AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.4] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/7a0131b7603e930d8b2fa0e1e46f41ed/AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.4] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/7a0131b7603e930d8b2fa0e1e46f41ed/AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-analytics:16.0.6] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/6c439cf6923987c51458bbcfb2a84169/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-analytics:16.0.6] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/6c439cf6923987c51458bbcfb2a84169/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.4] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/bb710f57ed972d51c13b76e75a841d52/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.4] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/bb710f57ed972d51c13b76e75a841d52/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-iid:17.0.3] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/e957aafe070fbaab5746ce0d6548216f/AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-iid:17.0.3] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/e957aafe070fbaab5746ce0d6548216f/AndroidManifest.xml:22:5-79
+	android:name
+		ADDED from [com.google.firebase:firebase-database:16.0.4] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/a15e144f5a1e37d2ddcde897e2fb5d54/AndroidManifest.xml:22:22-76
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.firebase:firebase-measurement-connector-impl:17.0.4] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/7a0131b7603e930d8b2fa0e1e46f41ed/AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-analytics:16.0.6] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/6c439cf6923987c51458bbcfb2a84169/AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-analytics:16.0.6] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/6c439cf6923987c51458bbcfb2a84169/AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.4] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/bb710f57ed972d51c13b76e75a841d52/AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.4] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/bb710f57ed972d51c13b76e75a841d52/AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-iid:17.0.3] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/e957aafe070fbaab5746ce0d6548216f/AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-iid:17.0.3] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/e957aafe070fbaab5746ce0d6548216f/AndroidManifest.xml:24:5-68
+	android:name
+		ADDED from [com.google.firebase:firebase-measurement-connector-impl:17.0.4] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/7a0131b7603e930d8b2fa0e1e46f41ed/AndroidManifest.xml:24:22-65
+meta-data#com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar
+ADDED from [com.google.firebase:firebase-measurement-connector-impl:17.0.4] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/7a0131b7603e930d8b2fa0e1e46f41ed/AndroidManifest.xml:28:13-30:85
+	android:value
+		ADDED from [com.google.firebase:firebase-measurement-connector-impl:17.0.4] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/7a0131b7603e930d8b2fa0e1e46f41ed/AndroidManifest.xml:30:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-measurement-connector-impl:17.0.4] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/7a0131b7603e930d8b2fa0e1e46f41ed/AndroidManifest.xml:29:17-139
+uses-permission#com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+ADDED from [com.google.firebase:firebase-analytics:16.0.6] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/6c439cf6923987c51458bbcfb2a84169/AndroidManifest.xml:26:5-110
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.4] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/bb710f57ed972d51c13b76e75a841d52/AndroidManifest.xml:26:5-110
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.4] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/bb710f57ed972d51c13b76e75a841d52/AndroidManifest.xml:26:5-110
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.6] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/6c439cf6923987c51458bbcfb2a84169/AndroidManifest.xml:26:22-107
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.firebase:firebase-analytics:16.0.6] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/6c439cf6923987c51458bbcfb2a84169/AndroidManifest.xml:29:9-33:20
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:16.0.6] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/6c439cf6923987c51458bbcfb2a84169/AndroidManifest.xml:31:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:16.0.6] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/6c439cf6923987c51458bbcfb2a84169/AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.6] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/6c439cf6923987c51458bbcfb2a84169/AndroidManifest.xml:30:13-85
+receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
+ADDED from [com.google.firebase:firebase-analytics:16.0.6] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/6c439cf6923987c51458bbcfb2a84169/AndroidManifest.xml:34:9-42:20
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.4] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/bb710f57ed972d51c13b76e75a841d52/AndroidManifest.xml:29:9-37:20
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.4] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/bb710f57ed972d51c13b76e75a841d52/AndroidManifest.xml:29:9-37:20
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:16.0.6] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/6c439cf6923987c51458bbcfb2a84169/AndroidManifest.xml:36:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:16.0.6] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/6c439cf6923987c51458bbcfb2a84169/AndroidManifest.xml:37:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:16.0.6] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/6c439cf6923987c51458bbcfb2a84169/AndroidManifest.xml:38:13-69
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.6] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/6c439cf6923987c51458bbcfb2a84169/AndroidManifest.xml:35:13-100
+intent-filter#action:name:com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:16.0.6] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/6c439cf6923987c51458bbcfb2a84169/AndroidManifest.xml:39:13-41:29
+action#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:16.0.6] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/6c439cf6923987c51458bbcfb2a84169/AndroidManifest.xml:40:17-79
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.6] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/6c439cf6923987c51458bbcfb2a84169/AndroidManifest.xml:40:25-76
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.firebase:firebase-analytics:16.0.6] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/6c439cf6923987c51458bbcfb2a84169/AndroidManifest.xml:44:9-47:40
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:16.0.6] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/6c439cf6923987c51458bbcfb2a84169/AndroidManifest.xml:46:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:16.0.6] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/6c439cf6923987c51458bbcfb2a84169/AndroidManifest.xml:47:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.6] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/6c439cf6923987c51458bbcfb2a84169/AndroidManifest.xml:45:13-84
+service#com.google.android.gms.measurement.AppMeasurementJobService
+ADDED from [com.google.firebase:firebase-analytics:16.0.6] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/6c439cf6923987c51458bbcfb2a84169/AndroidManifest.xml:48:9-52:72
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:16.0.6] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/6c439cf6923987c51458bbcfb2a84169/AndroidManifest.xml:50:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:16.0.6] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/6c439cf6923987c51458bbcfb2a84169/AndroidManifest.xml:51:13-37
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:16.0.6] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/6c439cf6923987c51458bbcfb2a84169/AndroidManifest.xml:52:13-69
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.6] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/6c439cf6923987c51458bbcfb2a84169/AndroidManifest.xml:49:13-87
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:17.0.3] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/e957aafe070fbaab5746ce0d6548216f/AndroidManifest.xml:26:5-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/e957aafe070fbaab5746ce0d6548216f/AndroidManifest.xml:26:22-79
+meta-data#com.google.firebase.components:com.google.firebase.iid.Registrar
+ADDED from [com.google.firebase:firebase-iid:17.0.3] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/e957aafe070fbaab5746ce0d6548216f/AndroidManifest.xml:32:13-34:85
+	android:value
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/e957aafe070fbaab5746ce0d6548216f/AndroidManifest.xml:34:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/e957aafe070fbaab5746ce0d6548216f/AndroidManifest.xml:33:17-96
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:17.0.3] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/e957aafe070fbaab5746ce0d6548216f/AndroidManifest.xml:37:9-44:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/e957aafe070fbaab5746ce0d6548216f/AndroidManifest.xml:39:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/e957aafe070fbaab5746ce0d6548216f/AndroidManifest.xml:40:13-73
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/e957aafe070fbaab5746ce0d6548216f/AndroidManifest.xml:38:13-78
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:17.0.3] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/e957aafe070fbaab5746ce0d6548216f/AndroidManifest.xml:41:13-43:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:17.0.3] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/e957aafe070fbaab5746ce0d6548216f/AndroidManifest.xml:42:17-81
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/e957aafe070fbaab5746ce0d6548216f/AndroidManifest.xml:42:25-78
+service#com.google.firebase.iid.FirebaseInstanceIdService
+ADDED from [com.google.firebase:firebase-iid:17.0.3] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/e957aafe070fbaab5746ce0d6548216f/AndroidManifest.xml:50:9-56:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/e957aafe070fbaab5746ce0d6548216f/AndroidManifest.xml:52:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/e957aafe070fbaab5746ce0d6548216f/AndroidManifest.xml:51:13-77
+intent-filter#action:name:com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:17.0.3] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/e957aafe070fbaab5746ce0d6548216f/AndroidManifest.xml:53:13-55:29
+	android:priority
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/e957aafe070fbaab5746ce0d6548216f/AndroidManifest.xml:53:28-51
+action#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:17.0.3] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/e957aafe070fbaab5746ce0d6548216f/AndroidManifest.xml:54:17-80
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/e957aafe070fbaab5746ce0d6548216f/AndroidManifest.xml:54:25-77
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:17.0.0] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/cb99a25ec532e510c305a5c311ad2ad0/AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/cb99a25ec532e510c305a5c311ad2ad0/AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/cb99a25ec532e510c305a5c311ad2ad0/AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/cb99a25ec532e510c305a5c311ad2ad0/AndroidManifest.xml:24:13-79
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:16.0.3] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/591ec38af594a5e64d1e533b0ef3c09e/AndroidManifest.xml:10:9-14:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:16.0.3] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/591ec38af594a5e64d1e533b0ef3c09e/AndroidManifest.xml:12:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:16.0.3] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/591ec38af594a5e64d1e533b0ef3c09e/AndroidManifest.xml:13:13-37
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:16.0.3] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/591ec38af594a5e64d1e533b0ef3c09e/AndroidManifest.xml:14:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:16.0.3] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/591ec38af594a5e64d1e533b0ef3c09e/AndroidManifest.xml:11:13-77
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:17.0.0] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/2709dfd34fb2bf730b6aba861071c08f/AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:17.0.0] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/2709dfd34fb2bf730b6aba861071c08f/AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:17.0.0] /Users/waqqasiqbal/.gradle/caches/transforms-2/files-2.1/2709dfd34fb2bf730b6aba861071c08f/AndroidManifest.xml:24:13-58

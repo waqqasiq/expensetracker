@@ -47,6 +47,7 @@ public class SignupActivity extends AppCompatActivity {
 
                                         if (task.isSuccessful()) {
                                             startActivity(new Intent(SignupActivity.this, MainActivity.class));
+                                            overridePendingTransition(R.anim.slide_in_right,R.anim.slide_out_left);
                                             finish();
                                         } else {
                                             Toast.makeText(SignupActivity.this, "SignUp Not successful", Toast.LENGTH_SHORT).show();

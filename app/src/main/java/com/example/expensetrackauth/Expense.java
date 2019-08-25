@@ -2,15 +2,16 @@ package com.example.expensetrackauth;
 
 public class Expense {
     private String date;
-    private String expname1;
     private int depart; //first expense default name
-    private String expname2;
     private int lunch; //second expense default name
-    private String expname3;
     private int returnexp; //third expense default name
-    private String expname4;
     private int other; //fourth expense default name
     private int total;
+
+    private String expname1;
+    private String expname2;
+    private String expname3;
+    private String expname4;
 
 
     public Expense(){

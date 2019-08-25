@@ -11,7 +11,8 @@
         android:roundIcon="@mipmap/ic_launcher_tk_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".SigninEmail"></activity>
+        <activity android:name=".UpdateExpActivity"></activity>
+        <activity android:name=".SigninEmail" />
         <activity android:name=".SummaryActivity" />
         <activity android:name=".AddExpenses" />
         <activity android:name=".SignupActivity" />

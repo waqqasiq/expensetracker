@@ -49,7 +49,8 @@ public class Adapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
 
     @Override
     public void onBindViewHolder(@NonNull RecyclerView.ViewHolder holder, final int position) {
-        ((ExpenseViewHolder) holder).date.setText("Date: " + expense.get(position).getDate());
+
+        ((ExpenseViewHolder) holder).date.setText("" + expense.get(position).getDate());
         ((ExpenseViewHolder) holder).departexp.setText(expense.get(position).getExpname1()+": " + expense.get(position).getDepart());
         ((ExpenseViewHolder) holder).lunchexp.setText(expense.get(position).getExpname2()+": " + expense.get(position).getLunch());
         ((ExpenseViewHolder) holder).returnexp.setText(expense.get(position).getExpname3()+": " + expense.get(position).getReturnexp());
@@ -61,12 +62,24 @@ public class Adapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
         holder.itemView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                int totalcost = expense.get(position).getTotal();
-                // display a toast with person name on item click
-                Toast.makeText(context, "     " + expense.get(position).getDate() + "\nTotal Expense: " + totalcost, Toast.LENGTH_SHORT).show();
+                //int totalcost = expense.get(position).getTotal();
+                Intent intent = new Intent(context, UpdateExpActivity.class);
+                Log.d("puttingExtra", "adding extras");
+                intent.putExtra("expdate", expense.get(position).getDate());
+                intent.putExtra("expname1", expense.get(position).getExpname1());
+                intent.putExtra("expname2", expense.get(position).getExpname2());
+                intent.putExtra("expname3", expense.get(position).getExpname3());
+                intent.putExtra("expname4", expense.get(position).getExpname4());
+                intent.putExtra("departexp", ""+expense.get(position).getDepart());
+                intent.putExtra("lunchexp", ""+expense.get(position).getLunch());
+                intent.putExtra("returnexp", ""+expense.get(position).getReturnexp());
+                intent.putExtra("otherexp", ""+expense.get(position).getOther());
+
+                context.startActivity(intent);
+              //Toast.makeText(context, "     " + expense.get(position).getDate() + "\nTotal Expense: " + totalcost, Toast.LENGTH_SHORT).show();
             }
         });
-        /*holder.itemView.setOnLongClickListener(new View.OnLongClickListener() {
+       /* holder.itemView.setOnLongClickListener(new View.OnLongClickListener() {
             @Override
             public boolean onLongClick(View view) {
                 int p=position;

@@ -10,11 +10,10 @@
     <color name="colorNavy">#000080</color>
     <color name="colorBlack">#000000</color>
     <color name="colorGrey">#cccccc</color>
-
-
-
-
-
+    <color name="colorNew">#c88263</color>
+    <color name="colorLightGrey">#d3d3d3</color>
+    <color name="colorHoneydew2">#e0eee0</color>
+    <color name="colorWhiteSmoke">#f5f5f5</color>
 
 
 </resources>

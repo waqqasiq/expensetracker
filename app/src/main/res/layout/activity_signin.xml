@@ -28,7 +28,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="WELCOME TO EXPENSE TRACKER"
+                android:text="'Write down expenses as they incur' - Prudence"
                 android:gravity="center"
                 android:textAppearance="@style/TextAppearance.AppCompat.Medium"/>
             <TextView

@@ -57,7 +57,11 @@ public class SigninEmail extends AppCompatActivity {
                                 public void onComplete(@NonNull Task<AuthResult> task) {
 
                                     if (task.isSuccessful()) {
-                                        startActivity(new Intent(SigninEmail.this, MainActivity.class));
+                                        Intent intent = new Intent(SigninEmail.this,MainActivity.class);
+                                        intent.putExtra("btnSignIn",true);
+                                        startActivity(intent);
+                                        overridePendingTransition(R.anim.slide_in_right,R.anim.slide_out_left);
+                                        //startActivity(new Intent(SigninEmail.this, MainActivity.class));
                                         finish();
                                     } else {
                                         Toast.makeText(SigninEmail.this, "Sign in Not successful", Toast.LENGTH_SHORT).show();
@@ -75,10 +79,9 @@ public class SigninEmail extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(SigninEmail.this, SignupActivity.class));
-                finish();
+
             }
         });
     }
-
 
 }

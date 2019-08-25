@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -38,6 +39,7 @@ public class AddExpenses extends AppCompatActivity {
 
 
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -66,6 +68,7 @@ public class AddExpenses extends AppCompatActivity {
         userid = user.getUid();
 
     }
+
     private void getValues(){
         expense.setDate(date.getText().toString());
         int dep = Integer.parseInt(depart.getText().toString());
@@ -111,10 +114,17 @@ public class AddExpenses extends AppCompatActivity {
 
                     String dt = expense.getDate();
                     int total = expense.getTotal();
-                    if (dt.length() == 10) {
-                        ref.child(userid).child(dt).setValue(expense); //date is the key and userid is to save the data for the logged in user
-                        Toast.makeText(AddExpenses.this, "    Data Inserted\nTotal Expense: " + total, Toast.LENGTH_SHORT).show();
+                    if (dt.length() == 10 ) {
+                        int monthNo = Integer.parseInt(""+dt.charAt(5)+dt.charAt(6));
+                        int dayNo = Integer.parseInt(""+dt.charAt(8)+dt.charAt(9));
+                        if (monthNo >= 1 && monthNo <= 12 && dayNo >= 1 && dayNo <= 31) {
+                            ref.child(userid).child(dt).setValue(expense); //date is the key and userid is to save the data for the logged in user
+                            Toast.makeText(AddExpenses.this, "    Data Inserted\nTotal Expense: " + total, Toast.LENGTH_SHORT).show();
 
+                        }
+                        else{
+                            Toast.makeText(AddExpenses.this, "Invalid Date", Toast.LENGTH_SHORT).show();
+                        }
                     }
                     else{
                         Toast.makeText(AddExpenses.this, "Input date in the specified format", Toast.LENGTH_SHORT).show();
@@ -139,6 +149,7 @@ public class AddExpenses extends AppCompatActivity {
             public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
                 Intent intent = new Intent(AddExpenses.this, MainActivity.class);
                 startActivity(intent);
+                overridePendingTransition(R.anim.slide_in_left, R.anim.slide_out_right);
 
             }
 
@@ -148,6 +159,5 @@ public class AddExpenses extends AppCompatActivity {
             }
         });
     }
-
 
 }

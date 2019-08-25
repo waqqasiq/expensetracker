@@ -46,6 +46,7 @@ public class MainActivity extends AppCompatActivity {
     Adapter adapter;
     DatabaseReference ref;
     ArrayList<Expense> expenseList;
+    ArrayList<Expense>filteredList_dateConverted;
     String userid;
     FirebaseUser currentUser;
     SearchView searchView;
@@ -65,6 +66,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 Intent intent = new Intent(MainActivity.this, AddExpenses.class);
                 startActivity(intent);
+                overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
             }
         });
 
@@ -72,9 +74,9 @@ public class MainActivity extends AppCompatActivity {
         //btnLogout = (Button)findViewById(R.id.btnLogout);
         //item1 = (View)findViewById(R.id.action_settings);
 
-        mAuth = mAuth.getInstance();//
+        mAuth = FirebaseAuth.getInstance();//
 
-        currentUser = mAuth.getInstance().getCurrentUser();//
+        currentUser = mAuth.getCurrentUser();//
 
         if (currentUser == null) {
         //No one signed in
@@ -82,7 +84,9 @@ public class MainActivity extends AppCompatActivity {
             this.finish();
         }
         else{
-            Toast.makeText(MainActivity.this,"      Signed in as \n"+currentUser.getEmail(),Toast.LENGTH_SHORT).show();
+            if(isSignIn()) {
+                Toast.makeText(MainActivity.this, "      Signed in as \n" + currentUser.getEmail(), Toast.LENGTH_SHORT).show();
+            }
             expenseList = new ArrayList<Expense>();
             recyclerView = (RecyclerView)findViewById(R.id.recyclerview);
             searchView = (SearchView)findViewById(R.id.searchView);
@@ -105,11 +109,20 @@ public class MainActivity extends AppCompatActivity {
                             filteredList.add(expenseList.get(i));
                         }
                     }
-                    adapter = new Adapter(MainActivity.this, filteredList);//may use expenseList instead
+
+
+                    filteredList_dateConverted = new ArrayList<Expense>();
+                    filteredList_dateConverted = convertDateOfList(filteredList); // turning date into user readable format
+
+
+                    adapter = new Adapter(MainActivity.this, filteredList_dateConverted);//may use expenseList instead
                     recyclerView.setAdapter(adapter);//
 
                     //https://www.youtube.com/watch?v=PmqYd-AdmC0
                     //Search View video tutorial
+                    /*for(int i=0;i<filteredList.size();i++){
+                        tempList.add(filteredList.get(i));
+                    }*/
 
                     if(searchView!=null){
 
@@ -122,12 +135,15 @@ public class MainActivity extends AppCompatActivity {
                             @Override
                             public boolean onQueryTextChange(String newText) {
                                 ArrayList<Expense> searchList = new ArrayList<Expense>();
-                                for(Expense object: filteredList){
-                                    if(object.getDate().contains(newText) || object.getExpname1().toLowerCase().contains(newText.toLowerCase()) || object.getExpname2().toLowerCase().contains(newText.toLowerCase()) || object.getExpname3().toLowerCase().contains(newText.toLowerCase()) || object.getExpname4().toLowerCase().contains(newText.toLowerCase())){
+
+
+                                for(Expense object: filteredList_dateConverted){
+                                    if(object.getDate().toLowerCase().contains(newText.toLowerCase()) || object.getExpname1().toLowerCase().contains(newText.toLowerCase()) || object.getExpname2().toLowerCase().contains(newText.toLowerCase()) || object.getExpname3().toLowerCase().contains(newText.toLowerCase()) || object.getExpname4().toLowerCase().contains(newText.toLowerCase())){
                                         searchList.add(object);
 
                                     }
                                 }
+
                                 Adapter newAdapter = new Adapter(MainActivity.this, searchList);
                                 recyclerView.setAdapter(newAdapter);
                                 return true;
@@ -143,9 +159,6 @@ public class MainActivity extends AppCompatActivity {
 
 
 
-
-
-
                 }
 
 
@@ -155,13 +168,9 @@ public class MainActivity extends AppCompatActivity {
                 }
             });
 
-
-
         }
 
-
     }
-
 
 
     @Override
@@ -182,6 +191,7 @@ public class MainActivity extends AppCompatActivity {
         if (id == R.id.action_settings) { //action_settings is in menu_menu.xml
             mAuth.signOut();//
             startActivity(new Intent(MainActivity.this, SigninActivity.class));
+            overridePendingTransition(R.anim.slide_in_left, R.anim.slide_out_right);
             MainActivity.this.finish();
         }
         else if(id==R.id.summary){
@@ -189,6 +199,57 @@ public class MainActivity extends AppCompatActivity {
         }
 
         return super.onOptionsItemSelected(item);
+    }
+
+    private boolean isSignIn(){
+        if(getIntent().hasExtra("btnSignIn")) {
+            return getIntent().getBooleanExtra("btnSignIn", false);
+        }
+        else{
+            return false;
+        }
+
+    }
+
+    private ArrayList<Expense> convertDateOfList(ArrayList<Expense> originalList){
+        ArrayList<Expense> tempList = new ArrayList<Expense>(originalList);
+
+        for(int i=0;i<tempList.size();i++){ // making user's life easier
+            String dt = originalList.get(i).getDate();
+            String monthNum = ""+dt.charAt(5)+dt.charAt(6);
+            String year = ""+dt.charAt(0)+dt.charAt(1)+dt.charAt(2)+dt.charAt(3);
+            String day = ""+dt.charAt(8)+dt.charAt(9);
+            if(monthNum.equals("01")){
+                tempList.get(i).setDate("Jan "+day+", "+year);
+            }else if(monthNum.equals("02")){
+                tempList.get(i).setDate("Feb "+day+", "+year);
+            }else if(monthNum.equals("03")){
+                tempList.get(i).setDate("Mar "+day+", "+year);
+            }else if(monthNum.equals("04")){
+                tempList.get(i).setDate("Apr "+day+", "+year);
+            }else if(monthNum.equals("05")){
+                tempList.get(i).setDate("May "+day+", "+year);
+            }else if(monthNum.equals("06")){
+                tempList.get(i).setDate("Jun "+day+", "+year);
+            }else if(monthNum.equals("07")){
+                tempList.get(i).setDate("Jul "+day+", "+year);
+            }
+            else if(monthNum.equals("08")){
+                tempList.get(i).setDate("Aug "+day+", "+year);
+            }
+            else if (monthNum.equals("09")){
+                tempList.get(i).setDate("Sep "+day+", "+year);
+            }
+            else if(monthNum.equals("10")){
+                tempList.get(i).setDate("Oct "+day+", "+year);
+            }else if(monthNum.equals("11")){
+                tempList.get(i).setDate("Nov "+day+", "+year);
+            }else if(monthNum.equals("12")){
+                tempList.get(i).setDate("Dec "+day+", "+year);
+            }
+
+        }
+        return tempList;
     }
 
 }

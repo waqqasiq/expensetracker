@@ -5,6 +5,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
@@ -42,13 +43,19 @@ public class SummaryAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder
     }
 
     @Override
-    public void onBindViewHolder(@NonNull RecyclerView.ViewHolder holder, int position) {
+    public void onBindViewHolder(@NonNull RecyclerView.ViewHolder holder, final int position) {
 
-        ((ExpenseSummaryViewHolder) holder).monthyear.setText("Year-Month: " + yearmonthlist.get(position));
+        ((ExpenseSummaryViewHolder) holder).monthyear.setText("" + yearmonthlist.get(position));
         ((ExpenseSummaryViewHolder) holder).totalexpense.setText("Total Expense: " + yearmonthtotal.get(position));
         ((ExpenseSummaryViewHolder) holder).numdays.setText("NumOfDays: " + numOfDays.get(position));
         ((ExpenseSummaryViewHolder) holder).average.setText("Avg per day: " + String.format("%.2f",averageperday.get(position)) );
 
+        holder.itemView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Toast.makeText(context, yearmonthlist.get(position)+" -> "+"Total: "+yearmonthtotal.get(position), Toast.LENGTH_SHORT).show();
+            }
+        });
     }
 
     @Override

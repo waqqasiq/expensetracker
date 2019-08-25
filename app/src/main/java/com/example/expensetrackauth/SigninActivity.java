@@ -52,7 +52,11 @@ public class SigninActivity extends AppCompatActivity {
 
         mAuth = FirebaseAuth.getInstance();
         btnSignin = (Button)findViewById(R.id.btnSignin);
-
+//        if(FirebaseAuth.getInstance().getCurrentUser()!=null){
+//            Intent intent = new Intent(SigninActivity.this, MainActivity.class);
+//            startActivity(intent);
+//            finish();
+//        }
 /*
         email = (EditText)findViewById(R.id.email);
         pass= (EditText)findViewById(R.id.pass);
@@ -73,12 +77,57 @@ public class SigninActivity extends AppCompatActivity {
         btnSignin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                if(mAuth.getCurrentUser()==null) {
                     Intent intent = new Intent(SigninActivity.this, SigninEmail.class);
                     startActivity(intent);
+                    overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
+                }
+                else{
+                    Intent intent = new Intent(SigninActivity.this, MainActivity.class);
+                    startActivity(intent);
+                    finish();
+                }
+
             }
         });
 
 
+        /*btnSignin.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                try {
+                    String e = email.getText().toString();
+                    String p = pass.getText().toString();
+                    //e = "waqqas@gmail.com";
+                    //p = "927727";
+
+                    mAuth.signInWithEmailAndPassword(e, p).addOnCompleteListener(
+                            new OnCompleteListener<AuthResult>() {
+                                @Override
+                                public void onComplete(@NonNull Task<AuthResult> task) {
+
+                                    if (task.isSuccessful()) {
+                                        startActivity(new Intent(SigninActivity.this, MainActivity.class));
+                                        finish();
+                                    } else {
+                                        Toast.makeText(SigninActivity.this, "Sign in Not successful", Toast.LENGTH_SHORT).show();
+                                    }
+                                }
+                            });
+                }
+                catch (Exception e){
+                    Toast.makeText(SigninActivity.this,"Both fields must be filled", Toast.LENGTH_SHORT).show();
+                }
+            }
+        });
+
+        btnSignup.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(SigninActivity.this, SignupActivity.class));
+                finish();
+            }
+        });*/
 
         GoogleSignInOptions gso = new GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)
                 .requestIdToken(getString(R.string.default_web_client_id))
@@ -98,6 +147,7 @@ public class SigninActivity extends AppCompatActivity {
         // Result returned from launching the Intent from GoogleSignInApi.getSignInIntent(...);
         if (requestCode == 101) { //101 was used above as well in SignIn method thats why 101
             Task<GoogleSignInAccount> task = GoogleSignIn.getSignedInAccountFromIntent(data);
+
             try {
                 // Google Sign In was successful, authenticate with Firebase
                 GoogleSignInAccount account = task.getResult(ApiException.class);
@@ -122,6 +172,7 @@ public class SigninActivity extends AppCompatActivity {
                             Log.d(TAG, "signInWithCredential:success");
                             FirebaseUser user = mAuth.getCurrentUser();
                             Intent intent = new Intent(SigninActivity.this, MainActivity.class);
+                            intent.putExtra("btnSignIn",true);
                             startActivity(intent);
                             finish();
                             Toast.makeText(SigninActivity.this, "Sign in successful with Google", Toast.LENGTH_SHORT).show();
@@ -154,5 +205,6 @@ public class SigninActivity extends AppCompatActivity {
         }
     }
 
-
 }
+//waqqas@gmail.com pass: 927727
+
