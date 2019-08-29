@@ -1,5 +1,5 @@
 # Expense Tracker
-An android app that helps you track down your daily expenses. Watch this [demo](https://youtu.be/iMJBr2fKKxg) to get started.
+An android app that helps you track down your daily expenses. Watch this [demo](https://youtu.be/utncsTKbjnM) to get started.
 
 ## Features you get
 * Securing your expense data in Google Firebase
