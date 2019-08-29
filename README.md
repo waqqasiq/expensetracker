@@ -6,8 +6,9 @@ An android app that helps you track down your daily expenses. Watch this [demo](
 * Google authentication and other email login
 * Adding and tracking expenses incurred in a day
 * Updating previous expense 
-* Deleting expenses on touch and hold on the item
+* Deleting any expense you want
 * Check monthly summary along with the average expenditure per day in each month
+* Compare each month's total expense with that of the previous ones
 * Search expenses by date or by title
 
 ### Software
